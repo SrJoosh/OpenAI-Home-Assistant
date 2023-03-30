@@ -1,0 +1,25 @@
+[tool]
+[tool.pdm]
+
+[project]
+name = "OpenAI-Testing"
+version = "0.0.1"
+description = "Testing Capabilities of OpenAI's Language API"
+authors = [
+    {name = "Joshua Allport", email = "jooshallport@gmail.com"},
+]
+dependencies = [
+    "openai>=0.27.2",
+    "requests>=2.28.2",
+    "asyncio>=3.4.3",
+    "dotenv>=0.0.5",
+    "python-dotenv>=1.0.0",
+    "pandas>=1.5.3",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0"]
+build-backend = "pdm.pep517.api"
